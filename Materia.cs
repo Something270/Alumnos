@@ -9,7 +9,7 @@ namespace Alumnos
 
 
         public Materia(string nombre, int semestre){
-            this.nombregit = nombre;
+            this.nombre = nombre;
             this.semestre = semestre;
         }
     }
