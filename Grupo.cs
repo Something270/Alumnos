@@ -8,8 +8,13 @@ namespace Alumnos
         public string nombre;
         public int semestre;
         
-        List<Alumno> alumnos =new List<Alumno>();
-        List<Materia> materias = new List<Materia>();
+        public List<Alumno> alumnos =new List<Alumno>();
+        public List<Materia> materias = new List<Materia>();
+
+        public Grupo(string nombre, int semestre){
+            this.nombre = nombre;
+            this.semestre = semestre;
+        }
         
 
         public void AgregarAlumno(Alumno alumno){
